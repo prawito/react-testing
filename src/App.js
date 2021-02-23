@@ -4,6 +4,7 @@ import CompUserEvent from "./materi-testing/CompUserEvent";
 import CompVariant from "./materi-testing/CompVariant";
 import SampleCompRTL from "./materi-testing/SampleCompRTL";
 import SimpleShowHide from "./materi-testing/SimpleShowHide";
+import CompAxiosCall from "./materi-testing/CompAxiosCall";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CompRole />
       <CompVariant />
       <CompUserEvent />
+      <CompAxiosCall />
     </div>
   );
 }

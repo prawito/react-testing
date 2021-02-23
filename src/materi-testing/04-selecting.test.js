@@ -29,7 +29,8 @@ describe("Testing untuk seluruh App setelah melakukan action click pada button "
   it("Memastikan kontent button sesuai setelah action click button", () => {
     render(<App />);
 
-    const textBtn = screen.getByRole("button");
+    //const textBtn = screen.getByRole("button");
+    const textBtn = screen.getByTestId("button-fireEvent");
     fireEvent.click(textBtn);
 
     const textBtnResult = screen.getByText("Sembunyikan");
